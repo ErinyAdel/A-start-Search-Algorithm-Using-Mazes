@@ -63,3 +63,12 @@ if __name__ == "__main__":
     result = a_star(maze, start_pos, goal_pos)
     assert result is None
     
+    # Test 4
+    maze = [['0', '0', '*', '0'],
+            ['0', '0', '0', '0'],
+            ['0', '*', '0', '*'],
+            ['0', '0', '0', '0']]
+    start_pos = (0, 0)
+    goal_pos = (3, 3)
+    result = a_star(maze, start_pos, goal_pos)
+    print(result)

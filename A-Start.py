@@ -72,3 +72,10 @@ if __name__ == "__main__":
     goal_pos = (3, 3)
     result = a_star(maze, start_pos, goal_pos)
     print(result)
+    
+    # Test 5
+    maze = read_maze("mazes/challenge_maze.txt")
+    start_pos = (0, 0)
+    goal_pos = (3, 3)
+    result = a_star(maze, start_pos, goal_pos)
+    print(result)
